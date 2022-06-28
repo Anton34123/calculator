@@ -3,7 +3,7 @@ import loop
 
 def main():
     m_e = input("Enter mathematical expression: ")
-    vc = "1234567890+-*/()"  # valid characters
+    vc = "1234567890+-*/()."  # valid characters
     acc = True
 
     for char in m_e:
